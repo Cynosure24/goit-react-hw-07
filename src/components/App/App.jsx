@@ -6,11 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { EmptyContacts } from '../EmptyContacts/EmptyContacts';
 import { useEffect } from 'react';
 import { fetchContacts } from '../../redux/contactsOps';
-import {
-  selectContacts,
-  selectFilteredContacts,
-  selectLoading,
-} from '../../redux/selectors';
+import { selectContacts, selectFilteredContacts, selectLoading } from '../../redux/selectors';
 import { ThreeDots } from 'react-loader-spinner';
 
 function App() {
