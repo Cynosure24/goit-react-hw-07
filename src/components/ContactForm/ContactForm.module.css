@@ -1,0 +1,38 @@
+.label {
+  display: block;
+}
+
+.button {
+  display: block;
+  height: 30px;
+  width: 120px;
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+  transition: border 150ms ease-in;
+}
+
+.button:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.error {
+  display: block;
+  color: rgb(255, 0, 0);
+}
+
+.field {
+  margin-bottom: 10px;
+  height: 20px;
+  width: 200px;
+  border: 1px solid #212121;
+  padding-left: 10px;
+}
+
+.container {
+  border: 1px solid #212121;
+  margin: 0 240px;
+  padding: 30px;
+  margin-bottom: 40px;
+  width: 500px;
+}
