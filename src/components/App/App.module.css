@@ -6,7 +6,7 @@
 .container {
   position: relative;
   width: 100%;
-  height: 100vh; /* або будь-яка інша висота */
+  height: 100vh;
 }
 
 .loader {
